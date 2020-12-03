@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;600&display=swap");
+@import "reset.css";
+@import "variable.css";
+@import "animation.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: "Sansita Swashed", cursive;
+}

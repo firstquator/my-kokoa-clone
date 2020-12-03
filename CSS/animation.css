@@ -1,0 +1,22 @@
+@keyframes spin {
+  100% {
+    background-position: 100%;
+  }
+}
+
+.earth-spin {
+  background-image: url(images/earth.png);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+  animation: spin 30s linear alternate infinite;
+}
+
+.space-spin {
+  height: 100vh;
+  background-image: url(images/space.png);
+  background-size: cover;
+  animation: spin 120s linear alternate infinite;
+}
