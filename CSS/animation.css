@@ -38,6 +38,7 @@
   height: 100%;
   top: -50px;
   transform: rotateZ(40deg);
+  z-index: 0;
 }
 
 .star {
@@ -162,4 +163,55 @@
 .star:nth-child(5)::before,
 .star:nth-child(5)::after {
   animation-delay: 1.8s;
+}
+/* Animation : HeartBeat */
+
+@keyframes HeartBeatMusic {
+  0% {
+    transform: none;
+    color: #67eb8c;
+  }
+  50% {
+    color: #2c9e41;
+    transform: scale(1.3);
+  }
+  100% {
+    transform: none;
+    color: #67eb8c;
+  }
+}
+
+.user-components__info__music-play i {
+  margin-left: 10px;
+  color: #67eb8c;
+}
+
+.user-components__info__music-play:hover i {
+  will-change: transform;
+  animation: HeartBeatMusic 1s linear infinite;
+}
+
+.user-components__info__birthday i {
+  margin-left: 10px;
+  color: #f58484;
+}
+
+@keyframes HeartBeatBirthday {
+  0% {
+    transform: none;
+    color: #f58484;
+  }
+  50% {
+    color: #e03a3a;
+    transform: scale(1.3);
+  }
+  100% {
+    transform: none;
+    color: #f58484;
+  }
+}
+
+.user-components__info__birthday:hover i {
+  will-change: transform;
+  animation: HeartBeatBirthday 1s linear infinite;
 }

@@ -1,0 +1,23 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  margin-left: -25px;
+  background-color: var(--gray30);
+}
+
+.nav:hover {
+  background-color: var(--gray);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+.nav__link {
+  position: relative;
+}

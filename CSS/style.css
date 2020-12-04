@@ -7,12 +7,17 @@
 @import "components/status-bar.css";
 @import "components/no-mobile.css";
 @import "components/screen-header.css";
+@import "components/nav.css";
+@import "components/user-components.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Sansita Swashed", cursive;
   color: #fff;
   padding: 0px 25px;
+  cursor: default;
 }

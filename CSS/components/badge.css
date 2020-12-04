@@ -1,0 +1,29 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--blue);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.badge-sm {
+  width: 5px;
+  height: 5px;
+}
+
+.chat__badge {
+  position: absolute;
+  top: -17px;
+  right: -5px;
+}
+
+.more__badge {
+  position: absolute;
+  top: 0px;
+  right: -5px;
+}

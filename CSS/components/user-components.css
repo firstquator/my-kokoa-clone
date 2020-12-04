@@ -1,0 +1,77 @@
+.user-components {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.margin-sm {
+  margin-top: 15px;
+}
+
+.user-components__profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-components__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  border: none;
+}
+
+.img-sm {
+  width: 40px;
+  height: 40px;
+}
+
+.user-components__title {
+  margin-left: 20px;
+}
+
+.user-components__title__column {
+  display: flex;
+}
+
+.user-components__title__column i {
+  margin-left: 10px;
+  color: #f58484;
+}
+
+.user-components__name {
+  font-size: 20px;
+  cursor: default;
+}
+
+.name-sm {
+  font-size: 15px;
+}
+
+.user-components__info__music-play {
+  border: 3px solid #67eb8c;
+  border-radius: 10% / 50%;
+  background-color: var(--gray30);
+  padding: 5px 10px;
+  z-index: 1;
+}
+
+.user-components__info__music-play:hover {
+  background-color: var(--gray);
+}
+
+.user-components__info__birthday {
+  border: 3px solid #f58484;
+  border-radius: 10% / 50%;
+  background-color: var(--gray30);
+  padding: 5px 10px;
+  z-index: 2;
+}
+
+.user-components__info__birthday span {
+  font-size: 13px;
+}
+
+.user-components__info__birthday:hover {
+  background-color: var(--gray);
+}

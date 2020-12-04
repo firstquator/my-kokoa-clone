@@ -1,5 +1,6 @@
 :root {
   /* Color Variable */
   --gray: #494d52;
+  --gray30: rgba(73, 77, 82, 0.3);
   --blue: #7186a8;
 }
