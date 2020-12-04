@@ -15,11 +15,64 @@
   animation: spin 30s linear alternate infinite;
 }
 
+.earth-spin-sm {
+  background-image: url(images/earth.png);
+  animation: spin 15s linear alternate infinite;
+}
+
 .space-spin {
   height: 100vh;
   background-image: url(images/space.png);
   background-size: cover;
   animation: spin 120s linear alternate infinite;
+}
+
+.icon-spin {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: -10px -20px 50px 0px rgba(0, 0, 0, 0.1) inset;
+}
+
+.sun-spin {
+  background-image: url(images/sun.png);
+  animation: spin 5s linear alternate infinite;
+}
+
+.mercurious-spin {
+  background-image: url(images/mercurious.png);
+  animation: spin 5s linear alternate infinite;
+}
+
+.venus-spin {
+  background-image: url(images/venus.png);
+  animation: spin 5s linear alternate infinite;
+}
+
+.mars-spin {
+  background-image: url(images/mars.png);
+  animation: spin 5s linear alternate infinite;
+}
+
+.jupiter-spin {
+  background-image: url(images/jupiter.png);
+  animation: spin 10s linear alternate infinite;
+}
+
+.saturnus-spin {
+  background-image: url(images/saturnus.png);
+  animation: spin 20s linear alternate infinite;
+}
+
+.uranus-spin {
+  background-image: url(images/uranus.png);
+  animation: spin 1s linear alternate infinite;
+}
+
+.neptunus-spin {
+  background-image: url(images/neptune.jpg);
+  animation: spin 5s linear alternate infinite;
 }
 
 /* Animation : Falling Stars */
