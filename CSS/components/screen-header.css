@@ -1,10 +1,19 @@
 .screen-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   padding: 0px 5px;
   margin-top: 30px;
   cursor: default;
+}
+
+.screen-header__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px 5px;
 }
 
 .screen-header__title h1 {
@@ -13,9 +22,28 @@
 
 .screen-header__icons {
   padding-top: 13px;
-  margin-right: -15px;
+  margin-right: 35px;
 }
 
 .screen-header__icons span {
   margin-right: 10px;
+}
+
+.advertise {
+  background-image: url(bitcoin.png);
+  padding: 10px 20px;
+  margin-top: 60px;
+}
+
+.advertise__element h1 {
+  font-size: 16px;
+}
+
+.advertise-subtitle {
+  margin-top: 5px;
+}
+
+.advertise-subtitle span {
+  font-size: 13px;
+  color: var(--gray);
 }

@@ -35,9 +35,9 @@
   box-shadow: -10px -20px 50px 0px rgba(0, 0, 0, 0.1) inset;
 }
 
-.sun-spin {
+.sun-not-spin {
   background-image: url(images/sun.png);
-  animation: spin 5s linear alternate infinite;
+  /* animation: spin 1000s linear alternate infinite; */
 }
 
 .mercurious-spin {
@@ -100,9 +100,9 @@
   top: 50%;
   height: 4px;
   width: 100px;
-  background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+  background: linear-gradient(-45deg, #fff /*#5f91ff*/, rgba(0, 0, 255, 0));
   border-radius: 999px;
-  filter: drop-shadow(0 0 6px #699bff);
+  filter: drop-shadow(0 0 6px #f2ecdc /*#699bff*/);
   animation: tail 3s ease-in-out infinite, falling 3s ease-in-out infinite;
   will-change: transform;
 }
@@ -139,7 +139,7 @@
   background: linear-gradient(
     -45deg,
     rgba(0, 0, 255, 0),
-    #5f91ff,
+    #dbd7cc /*#5f91ff*/,
     rgba(0, 0, 255, 0)
   );
   border-radius: 100%;
@@ -267,4 +267,10 @@
 .user-components__info__birthday:hover i {
   will-change: transform;
   animation: HeartBeatBirthday 1s linear infinite;
+}
+
+.night-sky {
+  height: 100vh;
+  background-image: url(images/moon.png);
+  background-size: cover;
 }
