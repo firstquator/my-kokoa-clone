@@ -2,9 +2,9 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+  margin-left: -10px;
   box-sizing: border-box;
   padding: 15px 20px;
-  margin-left: -25px;
   background-color: var(--gray30);
 }
 

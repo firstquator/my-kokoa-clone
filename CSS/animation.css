@@ -269,8 +269,24 @@
   animation: HeartBeatBirthday 1s linear infinite;
 }
 
-.night-sky {
-  height: 100vh;
-  background-image: url(images/moon.png);
-  background-size: cover;
+@keyframes PickAnimation {
+  0% {
+    color: #fff;
+    transform: none;
+  }
+
+  50% {
+    color: #d63031;
+    transform: translateY(10px);
+  }
+
+  100% {
+    color: #fff;
+    transform: none;
+  }
+}
+
+.Pick-Animation:hover {
+  animation: PickAnimation 1s ease-in-out infinite;
+  cursor: pointer;
 }

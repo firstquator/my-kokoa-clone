@@ -1,0 +1,70 @@
+.bigspace {
+  background: url(../images/bigspace.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.setting-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px 20px 0px;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.setting-header__title i {
+  margin-right: 10px;
+}
+
+.setting-column {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #3c6382;
+  padding-bottom: 10px;
+}
+
+.setting-column:last-child {
+  border-bottom: none;
+}
+
+.setting-column__list {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 10px;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+.setting-column__list:hover {
+  box-shadow: 0 70px 0 0 rgba(0, 0, 0, 0.25) inset,
+    0 -70px 0 0 rgba(0, 0, 0, 0.25) inset;
+}
+
+.setting-column__list:nth-child(2n) {
+  border-top: 1px solid rgba(12, 36, 97, 0.2);
+  border-bottom: 1px solid rgba(12, 36, 97, 0.2);
+}
+
+.setting-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.setting-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-name__sub {
+  font-size: 13px;
+  font-weight: 600;
+  color: gray;
+  margin-top: 10px;
+}

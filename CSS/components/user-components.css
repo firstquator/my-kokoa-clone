@@ -3,6 +3,13 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.user-components:hover {
+  box-shadow: 0px 0px 50px #747d8c;
+  border-radius: 10px;
 }
 
 .margin-sm {
@@ -32,6 +39,15 @@
 
 .user-components__title__column {
   display: flex;
+  flex-direction: column;
+}
+.user-components__title__name {
+  display: flex;
+}
+.user-components__title__column span {
+  font-size: 13px;
+  color: #95a5a6;
+  margin-top: 10px;
 }
 
 .user-components__title__column i {
@@ -46,6 +62,22 @@
 
 .name-sm {
   font-size: 15px;
+}
+
+.user-components__subtitle {
+  font-size: 13px;
+  color: var(--gray);
+}
+
+.user-components__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-components__info__time {
+  font-size: 12px;
+  color: #95a5a6;
 }
 
 .user-components__info__music-play {
@@ -74,4 +106,19 @@
 
 .user-components__info__birthday:hover {
   background-color: var(--gray);
+}
+
+.user-components__info__pay {
+  display: flex;
+}
+
+.user-components__info__pay__column {
+  border: 2px solid #95afc0;
+  border-radius: 25px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.user-components__info__pay__column:last-child {
+  margin-left: 10px;
 }

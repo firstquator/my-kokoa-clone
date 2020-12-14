@@ -1,0 +1,96 @@
+.galaxy {
+  height: 100vh;
+  background: url(../images/galaxy.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.my-pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--gray30);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.my-pay__column {
+  display: flex;
+  align-items: center;
+}
+
+.my-pay__column:first-child {
+  padding: 5px 10px;
+  border: 2px solid #535c68;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.my-pay__column:first-child:hover {
+  color: #1dd1a1;
+}
+
+.my-pay__column:first-child i {
+  margin-right: 10px;
+}
+
+.my-pay__column:last-child span {
+  transition: 0.25s;
+}
+
+.my-pay__column:last-child span:hover {
+  color: #1dd1a1;
+  cursor: pointer;
+}
+
+.my-pay__column:last-child span:nth-child(2) {
+  border-right: 2px solid #535c68;
+  border-left: 2px solid #535c68;
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+
+.icons-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.icons-table__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.icons-table__column__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icons-table__column__element:hover {
+  color: #7bed9f;
+}
+
+.icons-table__column__element:nth-child(1) {
+  margin-left: -20px;
+}
+
+.icons-table__column__element:nth-child(4) {
+  margin-right: -20px;
+}
+
+.icons-table__column__element span {
+  font-size: 13px;
+  margin-top: 10px;
+}

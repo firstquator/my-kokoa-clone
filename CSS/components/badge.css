@@ -16,6 +16,10 @@
   height: 5px;
 }
 
+.chatting__badge {
+  margin-top: 8px;
+}
+
 .chat__badge {
   position: absolute;
   top: -17px;

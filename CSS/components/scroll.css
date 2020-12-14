@@ -1,0 +1,27 @@
+.scroll-box {
+  height: 78%;
+  padding: 0px 10px;
+  margin-top: -10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 99;
+}
+
+.no-nav {
+  height: 90%;
+}
+
+.scroll-box::-webkit-scrollbar {
+  width: 15px;
+}
+
+.scroll-box::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.opacity-back {
+  background-color: rgba(0, 0, 0, 0.3);
+}

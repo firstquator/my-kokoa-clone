@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universe-Talk : Friends</title>
+    <title>Universe-Talk : Chats</title>
 </head>
 <body class="night-sky main-screen">
     <!-- Status Bar -->
@@ -28,19 +28,19 @@
     </div>
 
     <!-- Friends : Screen-Header -->
-    <div class="screen-header">
+    <div class="screen-header margin-bottom">
         <div class="screen-header__column">
             <div class="screen-header__title">
                 <h1>Chats</h1>
             </div>
             <div class="screen-header__icons">
                 <span><i class="fas fa-search fa-lg"></i></span>
-                <span><i class="fas fa-user-plus fa-lg"></i></span>
+                <span><i class="fas fa-plus fa-lg"></i></span>
                 <span><i class="fas fa-music fa-lg"></i></span>
-                <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+                <span><i class="fas fa-cog fa-lg"></i></span>
             </div>
         </div>
-        <a class="advertise" href="https://nomadcoders.co/">
+        <a class="advertise" target="_blank" href="https://nomadcoders.co/">
             <aside class="advertise__element">
                 <h1>NomadCoder - KOKOA CLONE CODING</h1>
                 <div class=advertise-subtitle>
@@ -51,24 +51,46 @@
         </a>
     </div>
 
-    <!-- Chats Main Screen -->
+    <!-- Main Screen : Chats -->
     <main class="chats-screen">
-        <div class="user-components">
-            <div class="user-components__profile">
-                <div class=""><!-- Chats Img --></div>
-                <div class="user-components__title">
-                    <div class="user-components__title__column">
-                        <h1 class="user-components__name name-sm">Earth</h1>
-                        <!-- Empty -->
+        <!-- Room 1 -->
+        <a href="chat.html">
+            <div class="user-components">
+                <div class="user-components__profile">
+                    <div class="earth-spin-sm icon-spin"><!-- Chats Img --></div>
+                    <div class="user-components__title">
+                        <div class="user-components__title__column">
+                            <h1 class="user-components__name name-sm">Earth</h1>
+                            <span>Ok, I'm Ready !!</span>
+                        </div>
+                        <span class="user-components__subtitle subtitle-sm"></span>
                     </div>
-                    <span class="user-components__subtitle subtitle-sm"></span>
+                </div>
+                <div class="user-components__info">
+                    <span class="user-components__info__time">AM 06:03</span>
+                    <span class="badge chatting__badge">1</span>
                 </div>
             </div>
-            <div class="user-components__info">
-                <span>AM 06:03</span>
-                <!-- Badge -->
+        </a>
+        <!-- Room 2 -->
+        <a href="chat.html">
+            <div class="user-components">
+                <div class="user-components__profile">
+                    <div class="mercurious-spin icon-spin"><!-- Chats Img --></div>
+                    <div class="user-components__title">
+                        <div class="user-components__title__column">
+                            <h1 class="user-components__name name-sm">mercurious</h1>
+                            <span>Plz .. I'm so hot ... Stop !!</span>
+                        </div>
+                        <span class="user-components__subtitle subtitle-sm"></span>
+                    </div>
+                </div>
+                <div class="user-components__info">
+                    <span class="user-components__info__time">PM 09:23</span>
+                    <span class="badge chatting__badge">3</span>
+                </div>
             </div>
-        </div>
+        </a>
     </main>
 
     <!-- Navigation Bar -->
@@ -81,7 +103,7 @@
                     <span class="badge chat__badge">7</span>
                 </a>
             </li>
-            <li class="nav__link" class="nav__btn"><a href="news.html"><i class="fas fa-hashtag fa-2x"></i></a></li>
+            <li class="nav__link" class="nav__btn"><a href="news.html"><i class="fas fa-hashtag fa-2x slim"></i></a></li>
             <li class="nav__link" class="nav__btn">
                 <a href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
                 <span class="badge badge-sm more__badge"></span>

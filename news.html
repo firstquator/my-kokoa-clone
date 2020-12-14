@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe-Talk : News</title>
+</head>
+<body class="stardust main-screen">
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <!-- Status Bar : Left items -->
+        <div class="status-bar__column">
+            <span>KT</span>
+            <span>12:48</span>
+            <span><i class="fas fa-rocket"></i></span>
+            <span><i class="fas fa-satellite"></i></span>
+            <i class="fas fa-sms"></i>
+        </div>
+        <!-- Status Bar : Right items -->
+        <div class="status-bar__column">
+            <span><i class="fas fa-wifi"></i></span>
+            <span><i class="fas fa-volume-mute"></i></span>
+            <span><i class="fas fa-signal"></i></span>
+            <span>77%</span>
+            <span><i class="fas fa-battery-three-quarters"></i></span>
+        </div>
+    </div>
+
+    <!-- News : Screen-Header -->
+    <div class="screen-header margin-bottom">
+        <div class="screen-header__column news__header">
+            <div class="screen-header__title news__header__title">
+                <span>COVID19</span>
+                <span class="news__checked"><i class="fas fa-hashtag"></i>NEWS</span>
+                <span>KokoaTV</span>
+                <span>FUN</span>
+                <span>Sports</span>
+                <span>Movie</span>
+                <span>shopping</span>
+                <span>Music</span>
+            </div>
+        </div>
+        <a class="advertise" target="_blank" href="https://nomadcoders.co/">
+            <aside class="advertise__element">
+                <h1>NomadCoder - KOKOA CLONE CODING</h1>
+                <div class=advertise-subtitle>
+                    <!-- image -->
+                    <span>Let's learn HTML and CSS</span>
+                </div>
+            </aside>
+        </a>
+    </div>
+    
+    <!-- Main-Screen : NEWS -->
+    <main class="scroll-box opacity-back">
+        <section class="covid-news">
+            <div class="covid-news__column">
+                <span>COVID-19 42,766</span>
+                <span><i class="fas fa-sort-up"></i> 1,030</span>
+                <span>12.13 00:00</span>
+            </div>
+            <div class="covid-news__column">
+                <i class="fas fa-qrcode"></i>
+                <span>QR Check-In</span>
+            </div>
+        </section>
+        <section class="another-news">
+            <article class="news__list">Daily coronavirus cases break 1,000 mark</article>
+            <article class="news__list">Popularity of "The Uncanny Counter' rising steadily</article>
+            <article class="news__list">Starbucks has over 1,500 stores in Korea</article>
+            <article class="news__list">Tesla Model X conflagration kills its owner</article>
+            <article class="news__list">NomadCoder Kokoa Clone challenge is so fun!!</article>
+            <div class="another-news__img">
+                <article class="another-news__column">
+                    <div class="img-box">
+                        <img src="http://img.koreatimes.co.kr/upload/thumbnailV2/28db1e30e98a439fb57427cd48238d44.jpg/dims/resize/270/optimize">
+                    </div>
+                    <span>What will Hyundai' robot <br>business look like?</span>
+                </article>
+                <article class="another-news__column">
+                    <div class="img-box">
+                        <img src="http://img.koreatimes.co.kr/upload/thumbnailV2/d97faace0fd540d2876260f4d9b130c4.jpg/dims/resize/270/optimize">
+                    </div>
+                    <span>Foreign ministry slammed <br>for dinner with Biegun</span>
+                </article>
+            </div>
+        </section>
+        <section class="advertise-venner">
+            <a href="https://nomadcoders.co/windows-setup-for-developers" target="_blank"><img alt="NomadCoder" src="../nico.jpg"></a>
+        </section>
+        <section class="weather">
+            <div class="weather__info">
+                <div class="weather__detail">
+                    <i class="fas fa-moon"></i>
+                    <span class="temperature">-5</span>
+                    <span class="temperature__symbol">&#8451;</span>
+                    <div class="location">
+                        <span>Jungang-Dong, Pyeongtak</span>
+                        <span>4&#8451; lower than yesterday</span>
+                    </div>
+                </div>
+                <i class="fas fa-map-marker-alt fa-lg Pick-Animation"></i>
+            </div>
+            <div class="dust__info">
+                <div class="dust__info__column">
+                    <i class="fas fa-head-side-mask"></i>
+                    <span>Particulate matter</span>
+                    <span>GOOD</span>
+                </div>
+                <div class="dust__info__column">
+                    <i class="fas fa-wind"></i>
+                    <span>Yellow Storm</span>
+                    <span>Bad</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></i></a></li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <i class="far fa-comment fa-2x"></i>
+                    <span class="badge chat__badge">7</span>
+                </a>
+            </li>
+            <li class="nav__link" class="nav__btn"><a href="news.html"><i class="fas fa-hashtag fa-2x"></i></a></li>
+            <li class="nav__link" class="nav__btn">
+                <a href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                <span class="badge badge-sm more__badge"></span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Only Mobile Viewer -->
+    <div id="no-mobile">
+        <i class="fas fa-rocket"></i>
+        <span>The screen is too big :(</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9323719bfa.js" crossorigin="anonymous">
+    </script> 
+</body>
+</html>

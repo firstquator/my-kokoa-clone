@@ -29,12 +29,15 @@
     <!-- Login : Header -->
     <div class="login-header">
         <div class="earth-spin"><!-- Earth Image : Animation Spin --></div>
-        <span>Universe Kokoa Talk</span>
+        <div class="login-header__title">
+            <span>Universe Kokoa Talk</span>
+            <span>LOGIN</span>
+        </div>
     </div>
 
     <!-- Login : Input -->
-    <form action="friends.html" method="get" id="login-form">
-        <input required autofocus name="username" type="text" placeholder="Email or Phone Number">
+    <form id="login-form" action="friends.html" method="get">
+        <input required name="username" type="text" placeholder="Email or Phone Number">
         <input required name="password" type="password" placeholder="Password">
         <input type="submit" value="Log In">
         <input type="submit" value="Sign up">

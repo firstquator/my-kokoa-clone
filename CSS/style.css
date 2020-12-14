@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;600&display=swap");
 @import "reset.css";
 @import "variable.css";
 @import "animation.css";
@@ -10,15 +9,23 @@
 @import "components/nav.css";
 @import "components/user-components.css";
 @import "components/badge.css";
+@import "components/advertise.css";
+@import "components/scroll.css";
+@import "components/loading.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/news.css";
+@import "screens/more.css";
+@import "screens/setting.css";
 
 body {
-  font-family: "Sansita Swashed", cursive;
+  font-family: sans-serif;
   color: #fff;
   padding: 0px 10px;
   cursor: default;
   letter-spacing: 1px;
+  overflow-y: hidden;
 }
